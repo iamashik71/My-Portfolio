@@ -1,0 +1,30 @@
+.btn {
+    background: #fff;
+    border: 3px solid $light-red;
+    color: $light-red;
+    font-size: 20px;
+    outline: none;
+    padding: 10px 45px;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        background: $light-red;
+        color: #fff;
+    }
+}
+
+.btn-sec {
+    background: transparent;
+    border: 3px solid $light-red;
+    color: $light-red;
+    font-size: 20px;
+    outline: none;
+    padding: 10px 45px;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        background: $light-red;
+        color: #fff;
+    }
+}
+  
