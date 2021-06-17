@@ -11497,6 +11497,10 @@ fieldset:disabled .btn {
   color: #fff;
 }
 
+.section {
+  padding: 3rem 1rem;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11555,10 +11559,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 100vh;
 }
 
 .about-me .about-info h3, .about-me .about-info .h3 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .about-me .about-info p {
@@ -11571,7 +11576,7 @@ img {
 }
 
 .about-me .about-info .btn {
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
 }
 
 .contact {
@@ -11588,7 +11593,27 @@ img {
   padding: 16px 0 32px 0;
 }
 
-.section {
-  padding: 3rem 1rem;
+.my-info {
+  float: right;
+}
+
+.my-info ul {
+  text-align: right;
+}
+
+.my-info ul li {
+  display: inline;
+}
+
+.my-info ul li:not(last-child)::after {
+  content: "//";
+}
+
+.my-info ul li a {
+  color: #333;
+}
+
+.my-info ul li a:not(last-child) {
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
