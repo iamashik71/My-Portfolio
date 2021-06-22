@@ -11616,4 +11616,24 @@ img {
 .my-info ul li a:not(last-child) {
   margin-right: 0.5rem;
 }
+
+footer {
+  text-align: center;
+}
+
+footer .copyright-section, footer .footer-menu {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    text-align: left;
+  }
+  footer .copyright-section {
+    text-align: left;
+  }
+  footer .footer-menu {
+    text-align: right;
+  }
+}
 /*# sourceMappingURL=main.css.map */
